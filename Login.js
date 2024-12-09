@@ -6,7 +6,7 @@ btn.addEventListener("click",(e)=>{
     e.preventDefault();
     if(userName.value=="IyamPogi" && passWord.value=="IyamPogi"){
         alert("You have logged in successfully!");
-        window.location="/LESSON 3/content/Mainpage/MainPage.html";
+        window.location="/LESSON 3/content/Mainpage/Mainpage.html";
           } else {
             alert("Please fill all the fields");
           }
